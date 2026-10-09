@@ -10,6 +10,7 @@ default-run = "vectorcraft"
 workspace = true
 
 [dependencies]
+labs-updater = { version = "0.1.0", path = "../../crates/labs-updater" }
 vectorcraft-engine = { workspace = true }
 vectorcraft-ui-egui = { workspace = true }
 eframe = { workspace = true, features = ["default_fonts", "wgpu", "accesskit", "wayland", "x11"] }

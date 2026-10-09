@@ -2075,6 +2075,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "labs-updater"
+version = "0.1.0"
+dependencies = [
+ "egui",
+ "serde_json",
+]
+
+[[package]]
 name = "leb128fmt"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4218,6 +4226,7 @@ dependencies = [
  "eframe",
  "egui",
  "image",
+ "labs-updater",
  "log",
  "muda",
  "objc2 0.6.4",
